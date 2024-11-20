@@ -1,83 +1,86 @@
-[
-  {
-    "id": 1,
-    "city": "New York",
-    "date": "2024-11-20",
-    "temperature": {
-      "min": 5,
-      "max": 15
+{
+  "weather" : [
+    {
+      "id": 1,
+      "city": "New York",
+      "date": "2024-11-20",
+      "temperature": {
+        "min": 5,
+        "max": 15
+      },
+      "humidity": 60,
+      "conditions": "Cloudy",
+      "wind": {
+        "speed": 12,
+        "direction": "Northeast"
+      },
+      "timestamp": "2024-11-20T08:00:00Z"
     },
-    "humidity": 60,
-    "conditions": "Cloudy",
-    "wind": {
-      "speed": 12,
-      "direction": "Northeast"
+    {
+      "id": 2,
+      "city": "Los Angeles",
+      "date": "2024-11-20",
+      "temperature": {
+        "min": 12,
+        "max": 22
+      },
+      "humidity": 45,
+      "conditions": "Sunny",
+      "wind": {
+        "speed": 8,
+        "direction": "Southwest"
+      },
+      "timestamp": "2024-11-20T08:00:00Z"
     },
-    "timestamp": "2024-11-20T08:00:00Z"
-  },
-  {
-    "id": 2,
-    "city": "Los Angeles",
-    "date": "2024-11-20",
-    "temperature": {
-      "min": 12,
-      "max": 22
+    {
+      "id": 3,
+      "city": "Chicago",
+      "date": "2024-11-20",
+      "temperature": {
+        "min": 3,
+        "max": 10
+      },
+      "humidity": 70,
+      "conditions": "Partly Cloudy",
+      "wind": {
+        "speed": 15,
+        "direction": "West"
+      },
+      "timestamp": "2024-11-20T08:00:00Z"
     },
-    "humidity": 45,
-    "conditions": "Sunny",
-    "wind": {
-      "speed": 8,
-      "direction": "Southwest"
+    {
+      "id": 4,
+      "city": "San Francisco",
+      "date": "2024-11-20",
+      "temperature": {
+        "min": 10,
+        "max": 18
+      },
+      "humidity": 55,
+      "conditions": "Foggy",
+      "wind": {
+        "speed": 10,
+        "direction": "West"
+      },
+      "timestamp": "2024-11-20T08:00:00Z"
     },
-    "timestamp": "2024-11-20T08:00:00Z"
-  },
-  {
-    "id": 3,
-    "city": "Chicago",
-    "date": "2024-11-20",
-    "temperature": {
-      "min": 3,
-      "max": 10
-    },
-    "humidity": 70,
-    "conditions": "Partly Cloudy",
-    "wind": {
-      "speed": 15,
-      "direction": "West"
-    },
-    "timestamp": "2024-11-20T08:00:00Z"
-  },
-  {
-    "id": 4,
-    "city": "San Francisco",
-    "date": "2024-11-20",
-    "temperature": {
-      "min": 10,
-      "max": 18
-    },
-    "humidity": 55,
-    "conditions": "Foggy",
-    "wind": {
-      "speed": 10,
-      "direction": "West"
-    },
-    "timestamp": "2024-11-20T08:00:00Z"
-  },
-  {
-    "id": 5,
-    "city": "Miami",
-    "date": "2024-11-20",
-    "temperature": {
-      "min": 20,
-      "max": 30
-    },
-    "humidity": 80,
-    "conditions": "Thunderstorms",
-    "wind": {
-      "speed": 20,
-      "direction": "East"
-    },
-    "timestamp": "2024-11-20T08:00:00Z"
-  }
-]
+    {
+      "id": 5,
+      "city": "Miami",
+      "date": "2024-11-20",
+      "temperature": {
+        "min": 20,
+        "max": 30
+      },
+      "humidity": 80,
+      "conditions": "Thunderstorms",
+      "wind": {
+        "speed": 20,
+        "direction": "East"
+      },
+      "timestamp": "2024-11-20T08:00:00Z"
+    }
+  ]
+}
+
   
